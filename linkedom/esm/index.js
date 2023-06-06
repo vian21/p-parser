@@ -1,4 +1,4 @@
-import {DOMParser} from './dom/parser';
+import {DOMParser} from './dom/parser.js';
 import {Document as _Document} from './interface/document';
 
 import {illegalConstructor} from './shared/facades';

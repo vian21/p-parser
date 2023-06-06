@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "node tests/index.mjs",
-    "build": "npx webpack --config webpack.config.mjs"
+    "test": "node tests/index.js"
   },
   "keywords": [],
   "author": "Patrick Igiraneza @vian21",
@@ -22,6 +20,7 @@
     "css-select": "^5.1.0",
     "cssom": "^0.5.0",
     "htmlparser2": "^9.0.0",
+    "node-fetch": "^2.6.1",
     "uhyphen": "^0.2.0"
   }
 }

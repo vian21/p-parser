@@ -1,8 +1,10 @@
-import { DOMParser } from "./linkedom/esm/index.js"
+const {DOMParser} = require("./linkedom/cjs/index.js")
 
-export default class DomParser{
+class DomParser{
     constructor(data, mimeType = "text/html"){
         return (new DOMParser()).parseFromString(data, mimeType)
         
     }
 }
+
+module.exports = DomParser

@@ -1,4 +1,5 @@
-import DomParser from "../index.js"
+const DomParser = require("../index.js")
+
 const page= `<!DOCTYPE html>
 <html lang="en">
 <head>
