@@ -9,6 +9,10 @@
   "keywords": [],
   "author": "Patrick Igiraneza @vian21",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vian21/p-parser.git"
+  },
   "devDependencies": {
     "css-loader": "^6.8.1",
     "html-loader": "^4.2.0",
