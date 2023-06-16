@@ -43,6 +43,6 @@ const XMLDocument = XML.parse(`
 //... now you can traverse the XMLDocument
 ```
 ## Why
-- P-parser is made to allow DOM traversal and parsing of Markup documents in the `browser` or `node` environment.
+- p-parser is made to allow DOM traversal and parsing of Markup documents in the `browser` or `node` environment.
 - It is based on linkedom - a fast linked list document parser.
 - It was tailored to be used in a chrome extension environment which no longer provides a DOM Parsing API
