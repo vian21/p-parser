@@ -9,7 +9,7 @@ const page= `<!DOCTYPE html>
     <title>Test Page</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <p>Hello World</p>
     <p>Test Paragraph</p>
     <span id="spanid">Span field</span>
 </body>
@@ -22,3 +22,8 @@ function assert(state){
 }
 
 console.log(assert(document),"Dom Parsed")
+console.log(assert(document.body),"Body Parsed")
+console.log(assert(document.getElementById("spanid")),"Test getElementById()")
+console.log(assert(document.querySelector("#spanid")),"Test querySelector()")
+console.log(assert(document.querySelectorAll("span").length === 1),"Test querySelectorAll() on unique element")
+console.log(assert(document.querySelectorAll("p")[0].textContent === "Hello World"),"Test querySelectorAll() on multiple elements")

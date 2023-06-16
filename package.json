@@ -1,6 +1,6 @@
 {
   "name": "p-parser",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Browser Dom Parser",
   "main": "index.js",
   "scripts": {
@@ -13,18 +13,10 @@
     "type": "git",
     "url": "https://github.com/vian21/p-parser"
   },
-  "devDependencies": {
-    "css-loader": "^6.8.1",
-    "html-loader": "^4.2.0",
-    "style-loader": "^3.3.3",
-    "webpack": "^5.84.1",
-    "webpack-cli": "^5.1.1"
-  },
   "dependencies": {
     "css-select": "^5.1.0",
     "cssom": "^0.5.0",
     "htmlparser2": "^9.0.0",
-    "node-fetch": "^2.6.1",
     "uhyphen": "^0.2.0"
   }
 }

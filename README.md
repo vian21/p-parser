@@ -1,6 +1,9 @@
-# Parse
-- main file in /esm
-- files in /cjs are for full js support/ compiled files
+# p-parser
 
-## to install
-npm install htmlparser2 uhyphen css-select cssom
+A HTML/XML parser based on [Linkedom](https://github.com/WebReflection/linkedom)
+
+## Install
+
+```sh
+npm install p-parser
+```
