@@ -15,7 +15,7 @@ const page = `<!DOCTYPE html>
 </body>
 </html>`;
 
-const document = HTML.parse(page, "text/html");
+const document = HTML.parse(page);
 
 function assert(state) {
   return state ? "✅" : "❌ ";
