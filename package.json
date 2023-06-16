@@ -1,6 +1,6 @@
 {
   "name": "p-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Browser Dom Parser",
   "main": "index.js",
   "scripts": {
